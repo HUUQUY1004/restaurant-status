@@ -1,0 +1,8 @@
+google-genai>=1.0
+opencv-python-headless
+streamlit
+plotly
+pandas
+python-dotenv
+pydantic>=2
+pytest
