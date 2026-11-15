@@ -1,0 +1,1063 @@
+{
+  "video": "data\\restaurant.mp4",
+  "interval_s": 0.5,
+  "zones": [
+    {
+      "table_id": "T1",
+      "x1": 0,
+      "y1": 430,
+      "x2": 680,
+      "y2": 640
+    },
+    {
+      "table_id": "T2",
+      "x1": 690,
+      "y1": 412,
+      "x2": 1120,
+      "y2": 500
+    },
+    {
+      "table_id": "T3",
+      "x1": 40,
+      "y1": 300,
+      "x2": 560,
+      "y2": 428
+    },
+    {
+      "table_id": "T4",
+      "x1": 620,
+      "y1": 322,
+      "x2": 880,
+      "y2": 396
+    },
+    {
+      "table_id": "T5",
+      "x1": 885,
+      "y1": 290,
+      "x2": 1060,
+      "y2": 410
+    },
+    {
+      "table_id": "T6",
+      "x1": 1065,
+      "y1": 320,
+      "x2": 1275,
+      "y2": 460
+    }
+  ],
+  "frames": [
+    {
+      "timestamp_s": 0.0,
+      "image_path": "00000000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T2",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T3",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T4",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T5",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T6",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        }
+      ],
+      "checked_tables": []
+    },
+    {
+      "timestamp_s": 0.5,
+      "image_path": "00000500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T2",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T3",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T4",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T5",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T6",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        }
+      ],
+      "checked_tables": []
+    },
+    {
+      "timestamp_s": 1.0,
+      "image_path": "00001000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "Table is covered with leftover food trays and trash, no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "Table has dirty trays and trash remaining, no guests are present."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Several guests are seated and actively eating their meals."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.85,
+          "note": "A tray with items is left on the table, but no guests are seated."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food and drinks."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated and eating at the table."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 1.5,
+      "image_path": "00001500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "Trays with trash and food remains are on the table with no guests present."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Several guests are seated at the table with food and drinks."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.8,
+          "note": "A tray with a drink and food remains on the table, but it appears unoccupied."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 2.0,
+      "image_path": "00002000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "Trays with trash and food remains are on the table with no guests present."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food and drinks in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "The table is unoccupied but has dirty trays and trash left on it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "timestamp_s": 2.5,
+      "image_path": "00002500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is unoccupied but has several trays with food wrappers and cups left on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food and drinks in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.85,
+          "note": "A staff member is standing by the table which has a tray with leftovers; no guests are seated."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "A guest is seated at the table with a tray of food in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T2",
+        "T4",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 3.0,
+      "image_path": "00003000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is unoccupied but has several trays with food wrappers and cups left on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food and drinks in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.8,
+          "note": "The table is unoccupied but has a cup left on it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "A guest is seated at the table with a tray of food in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T4"
+      ]
+    },
+    {
+      "timestamp_s": 3.5,
+      "image_path": "00003500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is unoccupied but has several trays with food wrappers and cups left on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Guests are seated at the table with food and drinks in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.8,
+          "note": "The table is unoccupied but has a cup left on it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "A guest is seated at the table with a tray of food in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 4.0,
+      "image_path": "00004000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is unoccupied but has dirty trays, napkins, and cups remaining on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Several guests are seated at the table with food and drinks, actively eating."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.8,
+          "note": "The table is unoccupied but has a cup left on it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with a meal and drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T2",
+        "T3",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 4.5,
+      "image_path": "00004500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Several guests are seated at the table with food and drinks, actively eating."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated and have food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T2",
+        "T4",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 5.0,
+      "image_path": "00005000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Multiple guests are seated at the table with food trays and drinks, actively eating."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T3",
+        "T5"
+      ]
+    },
+    {
+      "timestamp_s": 5.5,
+      "image_path": "00005500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with trays of leftovers, wrappers, and cups, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "Guests are seated at the table with food and drinks in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 6.0,
+      "image_path": "00006000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table is covered with leftover food trays, cups, and wrappers, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "A staff member is in the process of clearing trays and trash from this table."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 6.5,
+      "image_path": "00006500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has several trays with food wrappers and a cup, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "There are trays and trash on the table, and a staff member is standing next to it, likely preparing to clean it."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 7.0,
+      "image_path": "00007000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has several trays with food wrappers and a cup, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "A staff member is at the table which has trays of leftovers and no seated guests."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated at the table with food and a drink in front of her."
+        }
+      ],
+      "checked_tables": [
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 7.5,
+      "image_path": "00007500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has several trays with food wrappers and a cup, but no guests are seated."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "needs_cleaning",
+          "confidence": 0.8,
+          "note": "A staff member is standing by the table, which has a tray with trash on it. No guests are seated."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A woman is seated at the table with food and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T3",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 8.0,
+      "image_path": "00008000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "empty_clean",
+          "confidence": 0.95,
+          "note": "The table is empty and appears to be clean and ready for guests."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food trays in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A woman is seated at the table with food and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 8.5,
+      "image_path": "00008500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "empty_clean",
+          "confidence": 0.95,
+          "note": "The table is empty and appears to be clean and ready for guests."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "The table has trays with leftovers and trash, but no guests are seated there."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food trays visible."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated with a pizza box and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T3",
+        "T6"
+      ]
+    },
+    {
+      "timestamp_s": 9.0,
+      "image_path": "00009000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "needs_cleaning",
+          "confidence": 0.95,
+          "note": "A staff member is actively wiping down the table, which currently has no guests."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.98,
+          "note": "The table is unoccupied but has multiple trays with leftover food and trash on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with food and drinks in front of them."
+        },
+        {
+          "table_id": "T4",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is clear of any items and no guests are seated at it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated with a pizza box and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "timestamp_s": 9.5,
+      "image_path": "00009500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "unknown",
+          "confidence": 0.8,
+          "note": "The table is almost entirely obscured by a staff member in the foreground."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.98,
+          "note": "The table is unoccupied but has multiple trays with leftover food and trash on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.7,
+          "note": "A guest is seated at the table, although the table surface is partially obscured."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.9,
+          "note": "The table is unoccupied but has a tray with trash and a cup left on it."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated with a pizza box and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "timestamp_s": 10.0,
+      "image_path": "00010000ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "empty_clean",
+          "confidence": 0.9,
+          "note": "The table is empty and appears to be clean."
+        },
+        {
+          "table_id": "T2",
+          "status": "needs_cleaning",
+          "confidence": 0.98,
+          "note": "The table is unoccupied but has multiple trays with leftover food and trash on it."
+        },
+        {
+          "table_id": "T3",
+          "status": "guests_eating",
+          "confidence": 0.7,
+          "note": "A guest is seated at the table, though the view is partially obscured."
+        },
+        {
+          "table_id": "T4",
+          "status": "needs_cleaning",
+          "confidence": 0.8,
+          "note": "There is a tray with leftovers on the table and no guests are currently seated."
+        },
+        {
+          "table_id": "T5",
+          "status": "guests_eating",
+          "confidence": 0.9,
+          "note": "Guests are seated at the table with drinks and food trays in front of them."
+        },
+        {
+          "table_id": "T6",
+          "status": "guests_eating",
+          "confidence": 0.95,
+          "note": "A guest is seated with a pizza box and a drink."
+        }
+      ],
+      "checked_tables": [
+        "T1",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "timestamp_s": 10.5,
+      "image_path": "00010500ms.jpg",
+      "readings": [
+        {
+          "table_id": "T1",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T2",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T3",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T4",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T5",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        },
+        {
+          "table_id": "T6",
+          "status": "unknown",
+          "confidence": 1.0,
+          "note": "frame is blank, model not called"
+        }
+      ],
+      "checked_tables": []
+    }
+  ]
+}
